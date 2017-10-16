@@ -1,0 +1,14 @@
+1、安装python的插件Python 0.7.0  
+2、安装python第三方库pylint 代码检查工具
+3、去除pylint烦人的warring C0103问题提示
+code -> 首选项 -> 设置 ->用户设置
+{
+    "python.linting.pylintArgs": ["--disable-msg=C0103"]
+}
+4、在将pycharm里面的python项目在VSC中打开时：
+	an error to configure launch.json.  warning ""Missing property "program" (40,9)""
+	原因出在'program' attribute is missing
+	解决方法：在"cwd": "${workspaceRoot}",前面添加
+	"program": "${file}",
+
+	
