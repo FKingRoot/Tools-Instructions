@@ -1,0 +1,6 @@
+1、Git 提示fatal: remote origin already exists 错误
+	#解决办法：
+	1、先删除远程 Git 仓库	git remote rm origin
+	2、再添加远程 Git 仓库	git remote add origin git@github.com:FKingRoot/FKingRoot.github.io.git
+	3、接着第一次推送	git push -u origin master
+	4、以后推送直接	    git push origin master
