@@ -1,8 +1,0 @@
-1、建立一个项目名称为username.github.io的项目，其中username是在Github上的用户名。 使用此种方式建立站点后，当你访问http://username.github.io/时，Github会解析用户username下的master分支下的项目源代码， 生成静态网站，并将生成的index.html文件展示给你。
-2、打开Git bash，在你需要保存项目的目录下clone刚才建立的项目username.github.io
-	#第一种写法 git clone https://github.com/FKingRoot/FKingRoot.github.io    慢 且 需要输入口令
-	#第二种写法 git clone git@github.com:FKingRoot/FKingRoot.github.io.git
-	#实际上，Git支持多种协议，默认的git://使用ssh，但也可以使用https等其他协议。
-	#使用https除了速度慢以外，还有个最大的麻烦是每次推送都必须输入口令，但是在某些只开放http端口的公司内部就无法使用ssh协议而只能用https。
-	#Git支持多种协议，包括https，但通过ssh支持的原生git协议速度最快。
-3、博客地址https://fkingroot.github.io/
