@@ -1,3 +1,4 @@
 1、PyCharm的Find in Path功能提供了全局查找功能，快捷键为Ctrl + Shift + F。Find则是在当前文件查找，快捷键为Ctrl + F，或从菜单Edit-》Find-》Find in Path进入全局查找界面。
 2、PyCharm快捷键Ctrl + Shift + F与搜狗输入法快捷键冲突，需关闭搜狗输入法对应的快捷键。
 3、选中区域，按tab键就会整块缩进，shift + tab 反向缩进。
+4、File-Editor-Inspections-python- Package requirements 打钩
