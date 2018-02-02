@@ -1,4 +1,4 @@
-一、创建版本库 
+git一、创建版本库 
 	1、初始化一个Git仓库，使用git init命令。
 		#首先确保目录名（包括父目录）不包含中文
 		#打开需要创建版本库的目录 cd  dir 
@@ -11,6 +11,11 @@
 		git add log.txt
 		git add log1.txt
 		git commit -m "什么鬼"  
+		  
+		git add .   修改过的跟新的，不包括删除的
+		git add -u  修改过的包括删除的 不包括新文件
+		git add -A （同git add --all）上面的合集
+		
 二、远程仓库
 	1、添加远程库
 		#登陆GitHub进行操作，创建Selenium仓库
